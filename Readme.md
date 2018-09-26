@@ -32,7 +32,7 @@ Mocks are not the same as doubles
 
 https://martinfowler.com/bliki/TestDouble.html
 
-https://github.com/alexgt9/AlexUnit/Doubles.php
+[Doubles examples](Doubles.php)
 
 ### What can a method do? 
 * NOT -Modify internal state-   Not the final behavior
@@ -40,3 +40,10 @@ https://github.com/alexgt9/AlexUnit/Doubles.php
 * Return a value *(Assertions)*
 * Throw exception *(Assertions)*
 * Delegate *(Doubles)*
+
+
+## PHPUnit
+
+Use a real library instead of build your own please https://phpunit.de/ 
+
+[PHPUnit Cheat-Sheet](PHPUnit-Cheat-Sheet.pdf)
